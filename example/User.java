@@ -30,8 +30,8 @@ class User implements Comparable <User> {
     @Override
     public String toString(){
         return "User {" +
-                "userNo" + this.userNo +
-                ", userName" + this.userName +
-                ", user Age" + this.userAge + ")";
+                "userNo: " + this.userNo +
+                ", userName: " + this.userName +
+                ", user Age: " + this.userAge + ")";
     }
 }

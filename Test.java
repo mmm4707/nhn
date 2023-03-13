@@ -1,6 +1,7 @@
 package nhn;
-import java.util.Iterator;
-import java.util.Objects;
+import nhn.example.Lecture;
+import nhn.example.LectureIterator;
+import nhn.example.Student;
 
 public class Test {
     public static void main(String[] args) {

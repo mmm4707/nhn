@@ -1,4 +1,4 @@
-package nhn;
+package nhn.example;
 
 import java.util.*;
 

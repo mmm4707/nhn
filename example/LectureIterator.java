@@ -1,4 +1,6 @@
-package nhn;
+package nhn.example;
+import nhn.example.Lecture;
+
 import java.util.Iterator;
 
 public class LectureIterator implements Iterator{

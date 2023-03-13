@@ -1,4 +1,4 @@
-package nhn;
+package nhn.example;
 
 public class Student {
     private int studentNo;
@@ -44,4 +44,13 @@ public class Student {
         this.department = department;
     }
 
+
+    @Override
+    public String toString(){
+        return "Students {" +
+                "student: " + this.studentNo +
+                ", name: " + this.name+
+                ", department: " + this.department +
+                ", address: " + this.address;
+    }
 }
